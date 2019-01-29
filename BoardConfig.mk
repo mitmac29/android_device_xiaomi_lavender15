@@ -22,9 +22,12 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 AUDIO_FEATURE_ELLIPTIC_ULTRASOUND_SUPPORT := true
 
 # Camera
-USE_DEVICE_SPECIFIC_CAMERA := true
+TARGET_TS_MAKEUP := true
+TARGET_USES_QTI_CAMERA_DEVICE := true
 BOARD_QTI_CAMERA_32BIT_ONLY := true
 MALLOC_SVELTE_FOR_LIBC32 := true
+USE_DEVICE_SPECIFIC_CAMERA := true
+$(call project-set-path,qcom-camera,hardware/qcom-caf/sdm660/camera)
 
 # Device Path
 DEVICE_PATH := device/xiaomi/lavender

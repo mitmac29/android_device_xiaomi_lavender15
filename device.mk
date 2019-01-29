@@ -35,6 +35,10 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
+# Camera
+PRODUCT_PACKAGES += \
+    camera.sdm660
+
 # Consumerir
 BOARD_HAVE_IR := true
 
