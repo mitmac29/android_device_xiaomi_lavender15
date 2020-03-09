@@ -112,6 +112,8 @@ TW_NO_HAPTICS := true
 # Debug
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
+TW_Y_OFFSET := 80
+TW_H_OFFSET := -80
 
 TARGET_RECOVERY_DEVICE_MODULES += \
     android.hidl.base@1.0 \
