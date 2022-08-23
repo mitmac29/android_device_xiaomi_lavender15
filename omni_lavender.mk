@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := clover
+PRODUCT_RELEASE_NAME := lavender
 
 $(call inherit-product, build/target/product/embedded.mk)
 
@@ -43,12 +43,12 @@ PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
     ro.build.date.utc
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := clover
-PRODUCT_NAME := omni_clover
+PRODUCT_DEVICE := lavender
+PRODUCT_NAME := omni_lavender
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := MI PAD 4
+PRODUCT_MODEL := Redmi Note 7
 PRODUCT_MANUFACTURER := Xiaomi
 
-TARGET_VENDOR_PRODUCT_NAME := clover
-TARGET_VENDOR_DEVICE_NAME := clover
-PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=clover PRODUCT_NAME=clover
+TARGET_VENDOR_PRODUCT_NAME := lavender
+TARGET_VENDOR_DEVICE_NAME := lavender
+PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=lavender PRODUCT_NAME=lavender
