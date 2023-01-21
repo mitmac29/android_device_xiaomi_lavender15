@@ -15,6 +15,10 @@ vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
+# Camera - from clover
+-vendor/lib/libts_face_beautify_hal.so
+-vendor/lib/libts_detected_face_hal.so
+
 # Common Camera - from Pie
 vendor/lib/libchromaflash.so|cf85560822e04014b8950a1abae9c2843069101d
 vendor/lib/libllvd_smore.so|740de4c339772df80858ddd9390f91ead71eadeb
