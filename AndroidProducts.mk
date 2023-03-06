@@ -23,9 +23,9 @@
 
 # Inherit Redmi Note 7 device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_lavender.mk
+    $(LOCAL_DIR)/tequila_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_lavender-eng \
-    lineage_lavender-userdebug \
-    lineage_lavender-user
+    tequila_lavender-eng \
+    tequila_lavender-userdebug \
+    tequila_lavender-user

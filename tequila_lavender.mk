@@ -21,14 +21,21 @@
 # definition file).
 #
 
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+
+# Inherit some common tequilaOS stuff
+$(call inherit-product, vendor/tequila/config/common_full_phone.mk)
+
+# We are a phone
+IS_PHONE := true
+
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/lavender/device.mk)
 
-# Inherit from our custom product configuration
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-
 # Device identifier
-PRODUCT_NAME := lineage_lavender
+PRODUCT_NAME := tequila_lavender
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_PLATFORM := SDM660
 PRODUCT_DEVICE := lavender
@@ -36,3 +43,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 7
 
 TARGET_VENDOR_PRODUCT_NAME := lavender
+
+# TequilaOS
+TEQUILA_BUILDTYPE := UNOFFICIAL
+
