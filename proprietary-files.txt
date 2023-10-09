@@ -34,7 +34,6 @@ vendor/lib/libtrueportrait.so|b8e11c098bd859aae6c535cdb87e3e36f6b1c6ef
 vendor/lib/libubifocus.so|833a305c780b2e7e338323c5ba27cb042f5cc3ed
 
 # Camera - from lavender V10.3.6.0.PFGMIXM
-vendor/lib/libMegviiFacepp-0.5.2.so|640676bd292c78197ea963aa7875153fab44a383
 vendor/lib/libSNPE.so|66f23aae6d30b09121f06635c749d6ae47543359
 vendor/lib/libSonyIMX376C3RmscLibrary.so|b3138daf9b93c645b89b67d28c3f6fadfbbfdb42
 vendor/lib/libSonyIMX376KRmscLibrary.so|2f7792d51bf476352590b8643e43762f68cadeef
