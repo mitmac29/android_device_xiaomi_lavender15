@@ -33,6 +33,21 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=xiaomi/lavender/lavender:10/QKQ1.190910.002/V11.0.1.0.QFGMIXM/release-keys \
     DeviceProduct=lavender
 
+INFINITY_MAINTAINER := MiTESH
+#TARGET_SUPPORTS_BLUR := true/false (Default: false)
+
+# Whether the compiled package ships Widely Used Minimal Google Apps:
+#WITH_GAPPS := true/false (Default: false)
+
+# Whether the compiled package ships Complete present Google Apps:
+#TARGET_SHIPS_FULL_GAPPS := true/false (Default: false) # (WITH_GAPPS must be set to true alongside)
+
+# Whether the compiled shipped gapps package uses Google Dialer, Messaging, Contacts:
+#TARGET_BUILD_GOOGLE_TELEPHONY := true/false (Default: false) # (WITH_GAPPS must be set to true alongside)
+
+# Whether the compiled package ships Moto Calculator irrespective VANILLA or GAPPS:
+USE_MOTO_CALCULATOR := true
+
 # Device identifier
 PRODUCT_NAME := lineage_lavender
 PRODUCT_MANUFACTURER := Xiaomi
