@@ -33,11 +33,15 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=xiaomi/lavender/lavender:10/QKQ1.190910.002/V11.0.1.0.QFGMIXM/release-keys \
     DeviceProduct=lavender
 
-MISTOS_MAINTAINER := MiTESH
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Snapdragon 660" \
+    RisingMaintainer="MiTESH"
+RISING_MAINTAINER := MiTESH
 TARGET_ENABLE_BLUR := false
 PRODUCT_NO_CAMERA := false
 TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
-#WITH_GMS := true
+WITH_GMS := true
+TARGET_CORE_GMS := true
 TARGET_DEFAULT_PIXEL_LAUNCHER := false
 TARGET_FACE_UNLOCK_SUPPORTED := true
 #WITH_GAPPS := true
